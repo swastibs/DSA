@@ -6,6 +6,15 @@
 // A
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// FOR ROW FROM N DOWN TO 1
+//     FOR LETTER_NUMBER FROM 1 TO ROW
+//         DISPLAY the letter at LETTER_NUMBER in the alphabet
+//     END FOR
+//     DISPLAY A NEW LINE
+// END FOR
+
 function pattern15(n) {
   for (let i = n; i >= 1; i--) {
     for (let j = 1; j <= i; j++) {

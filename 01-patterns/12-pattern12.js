@@ -6,6 +6,19 @@
 // 1234554321
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// FOR ROW FROM 1 TO N
+//     FOR NUMBER FROM 1 TO ROW
+//         DISPLAY NUMBER WITHOUT A NEW LINE
+//     END FOR
+//     DISPLAY 2 * (N - ROW) spaces without a new line
+//     FOR NUMBER FROM ROW DOWN TO 1
+//         DISPLAY NUMBER WITHOUT A NEW LINE
+//     END FOR
+//     DISPLAY A NEW LINE
+// END FOR
+
 function pattern12(n) {
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {

@@ -6,6 +6,19 @@
 // ABCDEDCBA
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// FOR ROW FROM 1 TO N
+//     DISPLAY N - ROW spaces without a new line
+//     FOR LETTER_NUMBER FROM 1 TO ROW
+//         DISPLAY the letter at LETTER_NUMBER without a new line
+//     END FOR
+//     FOR LETTER_NUMBER FROM ROW - 1 DOWN TO 1
+//         DISPLAY the letter at LETTER_NUMBER without a new line
+//     END FOR
+//     DISPLAY A NEW LINE
+// END FOR
+
 function pattern17(n) {
   for (let i = 1; i <= n; i++) {
     process.stdout.write(" ".repeat(n - i));

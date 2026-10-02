@@ -11,6 +11,16 @@
 // *        *
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// FOR ROW FROM 1 TO N
+//     DISPLAY ROW stars, then 2 * (N - ROW) spaces, then ROW stars
+// END FOR
+
+// FOR ROW FROM N - 1 DOWN TO 1
+//     DISPLAY ROW stars, then 2 * (N - ROW) spaces, then ROW stars
+// END FOR
+
 function pattern19(n) {
   for (let i = 1; i <= n; i++) {
     process.stdout.write(

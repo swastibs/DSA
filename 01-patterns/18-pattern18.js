@@ -6,6 +6,16 @@
 // A B C D E
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// FOR ROW FROM 1 TO N
+//     SET START_LETTER_NUMBER TO N - ROW + 1
+//     FOR OFFSET FROM 0 TO ROW - 1
+//         DISPLAY the letter at START_LETTER_NUMBER + OFFSET
+//     END FOR
+//     DISPLAY A NEW LINE
+// END FOR
+
 function pattern18(n) {
   for (let i = 1; i <= n; i++) {
     let char = 65 + n - i;

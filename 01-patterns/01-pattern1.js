@@ -6,11 +6,15 @@
 // *****
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// FOR ROW FROM 1 TO N
+//     DISPLAY "*" repeated N times
+// END FOR
 
-class Solution {
-  pattern1(n) {
-    for (let i = 0; i < n; i++) {
-      console.log("*".repeat(n));
-    }
+
+function pattern2(n) {
+  for (let i = 0; i < n; i++) {
+    console.log("*".repeat(n));
   }
 }

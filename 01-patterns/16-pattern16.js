@@ -6,6 +6,16 @@
 // EEEEE
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// FOR ROW FROM 1 TO N
+//     SET LETTER TO the letter at position ROW in the alphabet
+//     REPEAT ROW times
+//         DISPLAY LETTER WITHOUT A NEW LINE
+//     END REPEAT
+//     DISPLAY A NEW LINE
+// END FOR
+
 function pattern16(n) {
   for (let i = 1; i <= n; i++) {
     let char = 64 + i;

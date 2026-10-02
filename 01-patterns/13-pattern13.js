@@ -6,6 +6,17 @@
 // 11 12 13 14 15
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// SET NUMBER TO 1
+// FOR ROW FROM 1 TO N
+//     REPEAT ROW times
+//         DISPLAY NUMBER WITHOUT A NEW LINE
+//         INCREASE NUMBER BY 1
+//     END REPEAT
+//     DISPLAY A NEW LINE
+// END FOR
+
 function pattern13(n) {
   let num = 1;
   for (let i = 1; i <= n; i++) {

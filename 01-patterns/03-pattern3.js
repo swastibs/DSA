@@ -6,6 +6,15 @@
 // 12345
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// FOR ROW FROM 1 TO N
+//     FOR NUMBER FROM 1 TO ROW
+//         DISPLAY NUMBER WITHOUT A NEW LINE
+//     END FOR
+//     DISPLAY A NEW LINE
+// END FOR
+
 function pattern3(n) {
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {

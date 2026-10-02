@@ -6,6 +6,15 @@
 // 1
 // Print the pattern in the function given to you.
 
+// Pseudocode:
+// READ N
+// FOR ROW_LENGTH FROM N DOWN TO 1
+//     FOR NUMBER FROM 1 TO ROW_LENGTH
+//         DISPLAY NUMBER WITHOUT A NEW LINE
+//     END FOR
+//     DISPLAY A NEW LINE
+// END FOR
+
 function pattern6(n) {
   for (let i = n; i >= 1; i--) {
     for (let j = 1; j <= i; j++) {
